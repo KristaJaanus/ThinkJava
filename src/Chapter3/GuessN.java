@@ -1,3 +1,4 @@
+package Chapter3;
 /**
  * Created by Krista Jaanus Ex 3.4
  */
@@ -10,7 +11,7 @@ public class GuessN {
         Random random = new Random();
 
         int number = random.nextInt(100) + 1;
-        int userNumber = 91;
+        int userNumber = 9;
 
         if (userNumber == number){
             System.out.printf("Palju õnne!");

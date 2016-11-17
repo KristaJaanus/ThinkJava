@@ -1,3 +1,5 @@
+package Chapter2;
+
 /**
  * Created by Krista Jaanus Ex 2.3
  */

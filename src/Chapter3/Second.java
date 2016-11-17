@@ -1,3 +1,4 @@
+package Chapter3;
 /**
  * Created by Krista Jaanus Ex 3.3
  */
@@ -8,11 +9,11 @@ public class Second {
         int seconds, hours, minutes;
         Scanner input = new Scanner(System.in);
 
-        System.out.println("input a pole of seconds: ");
+        System.out.println("Input a pole of seconds: ");
         seconds = input.nextInt();
 
         System.out.printf("Entered %d seconds", seconds);
-        System.out.printf("\n Converted it shall be around: \n");
+        System.out.printf("\n Converted it shall be: \n");
         hours = seconds / 3600;
         minutes = (seconds % 3600) / 60;
         seconds = seconds % 60;

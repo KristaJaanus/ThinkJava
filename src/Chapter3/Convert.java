@@ -1,4 +1,4 @@
-/**
+package Chapter3; /**
  * Created by Krista Jaanus Ex 3.2
  */
 import java.util.Scanner;

@@ -1,5 +1,7 @@
+package Chapter4;
+
 /**
- * Created by krista Jaanus
+ * Created by Krista Jaanus
  */
 public class PrintTwice {
     public static void printTwice(String s){
