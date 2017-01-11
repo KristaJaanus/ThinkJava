@@ -6,7 +6,7 @@ public class oddSum {
     public static void main(String[]args){
         int n = 2;
 
-        if(n <= 0){
+        if(n >= 2){
             System.out.println("Negatiivne number");
         }
         else
@@ -24,11 +24,10 @@ public class oddSum {
             return ((n - 1) + oddSum(n - 2));
         }
                 else
-        {
 
                 return (n + oddSum(n - 2));
             }
-        }
+
 
     }
 
